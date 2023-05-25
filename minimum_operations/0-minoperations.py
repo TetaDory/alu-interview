@@ -7,7 +7,7 @@ Calculating the minimum number of operations
 def minOperations(n):
     if n <= 1:
         return 0
-
+    
     operations = 0
     divisor = 2
 
@@ -17,5 +17,5 @@ def minOperations(n):
             operations += divisor
         else:
             divisor += 1
-
+    
     return operations
