@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def rain(walls):
     if len(walls) == 0:
         return 0
