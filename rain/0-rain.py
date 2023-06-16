@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+   Calculates the total amount of rainwater retained after it rains
+"""
 def rain(walls):
     if len(walls) == 0:
         return 0
